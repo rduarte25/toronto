@@ -1,0 +1,412 @@
+/*
+Theme Name: Toronto
+Theme URI:
+Author: Ing. Rafael Abraham Duarte Méndez
+Author URI:
+Description: Tema práctico para Toronto
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/license/gpl-2.0.html
+Tags: toronto
+Text Domain: toronto
+*/
+
+html {
+	font-size: 1em;
+	line-height: 1.4;
+	color: #292929;
+}
+
+.clear,
+.clear:after,
+.clear:before {
+	clear: both;
+}
+
+header {
+	background-color: #a00622;
+	overflow: hidden;
+	height: 100px;
+}
+
+header.logo {
+	width: 400px;
+	float: left;
+}
+
+header nav {
+	width: 500px;
+	float: right;
+	margin-top: 42px;
+	height: 100px;
+}
+
+header nav ul {
+	list-style: none;
+}
+
+header nav ul li {
+	display: inline;
+	margin-left: 20px;
+}
+
+header nav ul li.current_page_item {
+	border-bottom: 2px solid #fff;
+	padding-bottom: 5px;
+}
+
+header nav ul li a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.menu {
+	position: absolute;
+	top: 20px;
+}
+
+#contenido {
+	margin-top: 20px;
+}
+
+.container {
+	width: 1100px;
+	margin: 0 auto;
+}
+
+#primary {
+	float: left;
+	width: 720px;
+}
+
+.destacada {
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.destacada h2 {
+	position: absolute;
+	left: 0;
+	bottom: 10px;
+	background-color: #a00622;
+	padding: 10px 15px;
+	color: #ffffff;
+}
+
+h2.noimagen {
+	color: #a00622;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border: 1px solid #a00622;
+}
+
+#secondary {
+	float: right;
+	width: 370px;
+}
+
+/** sidebar **/
+#testimoniales h3 {
+	color: #a00622;
+	font-size: 20px;
+}
+#testimoniales .textwidget {
+	font-size: 20px;
+	line-height: 34px;
+	color: #767676;
+	background-image: url( 'img/svg_comilla.svg' );
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-left: 86px;
+	font-style: italic;
+}
+
+#testimoniales .textwidget span {
+	display: block;
+	text-align: right;
+	font-style: normal;
+}
+
+/*** GUIA TORONTO ***/
+.post-guia {
+	float: left;
+	width: 350px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+
+.post-guia .imagen {
+	position: relative;
+}
+
+.post-guia .imagen .categoria {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+.categoria ul {
+	list-style: none;
+} 
+
+.categoria ul li {
+	background-color: #a00622;
+	padding: 3px 5px;
+}
+
+.categoria ul li a {
+	text-decoration: none;
+	color: white;
+	font-size: 10px;
+	text-transform: lowercase;
+}
+
+.post-guia .contenido {
+	padding: 10px;
+}
+
+.post-guia .contenido h3 {
+	margin: 0;
+	padding: 0;
+	color: #a00622;
+}
+
+.post-guia .contenido p {
+	color: #000;
+	font-size: 12px;
+	text-align: justify;
+}
+
+.post-guia .contenido a {
+	float: right;
+	background-color: #a00622;
+	font-size: 14px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding: 4px;
+	border-radius: 3px;
+}
+
+.post-guia .infopost {
+	background-color: #ebebeb;
+	padding: 5px;
+}
+
+.post-guia .infopost p {
+	font-size: 10px;
+	color: #000;
+	font-weight: bold;
+
+}
+
+p.autor {
+	float: left;
+	width: 40px;
+}
+
+p.autor span {
+	color: #a00622;
+}
+
+p.fecha {
+	float: right;
+	width: 40%;
+	text-align: right;
+}
+
+/* single post */
+
+.single .publicacion {
+	background-color: #ebebeb;
+	padding: 5px;
+	font-size: 12px;
+}
+
+.single .publicacion .columna {
+	float: left;
+	width: 33%;
+}
+
+.single .publicacion a,
+.single .publicacion span {
+	color: #a00622;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+/* Consejos */
+h2.consejos {
+	font-size: 20px;
+	color: #a00622;
+}
+
+/* Contacto */
+.post-16 h3 {
+	text-align: center;
+	font-size: 20px;
+	color: #a00622; 
+}
+
+.post-16 .wpcf7 {
+	background-color: #f2f2f2;
+	padding: 40px;
+	width: 60%;
+	margin: 0 auto;
+	--webkit-box-shadow: 0px 30px 20px 0 rgba(0,0,0,.3);
+	box-shadow: 0px 30px 20px 0 rgba(0,0,0,.3);
+	border-radius: 20px;
+}
+
+.post-16 .wpcf7 p {
+	font-size: 12px;
+	font-weight: bold;
+	color: #a00622;
+	margin-bottom: 15px;
+}
+
+.post-16 .wpcf7 input,
+.post-16 .wpcf7 textarea {
+	height: 32px;
+	border: 1px solid #888;
+	border-radius: 8px;
+	width: 100%;
+}
+
+.post-16 .wpcf7 textarea {
+	height: 200px;
+}
+
+.post-16 .wpcf7 input[type="submit"] {
+	background-color: #a00622;
+	font-weight: bold;
+	font-size: 20px;
+	color: #fff;
+	border-radius: 5px;
+	width: auto;
+	padding: 0 20px;
+}
+
+/* font page */
+#queVisitar {
+
+}
+
+#queVisitar .widgettitle {
+	display: none;
+}
+
+#queVisitar .widget_sp_image .widget_sp_image-description {
+	padding: 0 40px;
+	font-size: 24px;
+	font-weight: bold;
+	color: #fff;
+	padding-top: 5px;
+	padding-bottom: 2px;
+}
+
+#queVisitar .widget_sp_image p {
+	text-align: center;
+	background-color: #a00622;
+	border-radius: 20px;
+}
+
+#queVisitar .widget_sp_image {
+	float: left;
+	width: 33%;
+	text-align: center;
+}
+
+#informacionConsejos h3 {
+	font-size: 18px;
+	color: #a00622;
+}
+
+#informacionConsejos div.informacion {
+	widows: 350px;
+	float: left;
+	margin-right: 20px;
+}
+
+#informacionConsejos div.consejos {
+	float: left;
+	width: 720px;
+}
+
+#informacionConsejos div.consejos div.consejoContenido {
+	float: right;
+	margin-right: 10px;
+	width: 350px;
+}
+
+#informacionConsejos div.consejos a {
+	text-decoration: none;
+}
+
+#slider .bx-wrapper .bx-pager.bx-default-pager a.active {
+	background-color: #a00622;
+
+}
+
+#slider .bx-wrapper .bx-pager.bx-default-pager a {
+	background-color: #9b9b9b;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+}
+
+#slider .bx-wrapper .bx-pager {
+	bottom: -40px;
+}
+
+/* categorias*/
+a.more-link {
+	background-color: #a00622;
+	color: white;
+	padding: 10px 20px;
+	font-weight: bold;
+	text-decoration: none;
+	float: right;
+	border-radius: 10px;
+}
+
+h1.categoria {
+	font-size: 26px;
+	color: #a00622;
+}
+
+footer {
+	overflow: hidden;
+}
+
+footer nav {
+	float: left;
+	width: 500px;
+	margin-top: 30px;
+}
+
+footer nav ul {
+	list-style: none;
+}
+
+footer nav ul li {
+	display: inline;
+	margin-right: 20px;
+}
+
+footer nav ul li a {
+	color: #a00622;
+	text-decoration: none;
+}
+
+footer .copyright {
+	border-top: 3px solid #a00622;
+}
+
+footer .copyright p {
+	color: #a00622;
+	text-align: center;
+}
+
